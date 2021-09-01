@@ -1,0 +1,11 @@
+algoritma :
+1. Deklarasi alas tinggi dan luas
+2. masukkan angka tsb ke dalam variabelnya alas 25, tinggi 30, dan luas 0
+3. masukkan ke dalam rumus segitiga.
+4. cetak hasil perkalian.
+
+alas = 25
+tinggi = 30
+luas = 0
+luas = alas * tinggi / 2
+cetak luas

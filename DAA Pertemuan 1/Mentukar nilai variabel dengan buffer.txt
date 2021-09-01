@@ -1,0 +1,18 @@
+Fungsi untuk menukar dua variable x dan y :
+define swap(x, y)
+buffer = x
+x = y
+y = buffer
+-----------------------------------------------------------------------------------
+
+ada 2 buah manggis dan pisang, buah manggis di piring 1 dan buah pisang di piring 2
+piring 3 kosong.
+
+Algoritma membuat variabel manggis, pisang dan piring kosong.
+melakukan pertukaran dua variable tersebut.
+
+a = manggis, b = pisang, buffer = piringkosong
+define swap(a, b)
+buffer = a
+a = b
+b = buffer

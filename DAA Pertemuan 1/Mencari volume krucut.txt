@@ -1,0 +1,13 @@
+Algoritma :
+1. deklarasi jari-jari, volume, tinggi, dan phi.
+2. input angka pada variabel r = 3 , t = 5, phi = 3.14
+3. masukkan variabel kedalam rumus volume
+4. cetak hasil volume
+
+##Pseudocode##
+r = 3
+t = 5
+phi 3.14
+v = 0
+v = phi * (r * r) * t;
+cetak v

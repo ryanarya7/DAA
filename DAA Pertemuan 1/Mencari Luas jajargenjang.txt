@@ -1,0 +1,13 @@
+algoritma :
+deklarasi panjang dan lebar jajargenjang
+masukkan panjang dan lebar dalam variabel p = 5, l = 3.
+masukkan kedalam rumus luas
+cetak luas
+
+pseudecode
+
+p = 5
+l = 3
+luas = 0
+luas = p * t
+cetak luas

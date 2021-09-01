@@ -1,0 +1,14 @@
+Algoritma:
+Step 1 Jika n = 0, return nilai m sebagai hasil dan stop.
+Jika tidak kembali ke Step 2.
+Step 2 Bagi nilai m dgn n, masukkan nilai sisanya ke r.
+Step 3 Masukkan nilai n ke m dan nilai r ke n.
+kembali ke Step 1.
+
+## Pseudocode ##
+
+while n =/ 0 do
+r <- m mod n
+m <- n
+n <-r
+return m

@@ -1,0 +1,23 @@
+Algoritma
+1. Deklarasi nilai  3 dan 4 adalah bilangan 1 dan 2
+2. menentukan FPB dari 3 dan 4, Jika n = 0, return nilai m sebagai hasil dan stop.
+Jika tidak kembali ke Step 3.
+3. Bagi nilai m dgn n, masukkan nilai sisanya ke r.
+4. Masukkan nilai n ke m dan nilai r ke n.
+5. pencarian KPK, Bil1 * Bil2 / FPB
+6. cetak KPK
+
+##Pseudocode##
+n = 3
+m = 4
+r = 0
+
+while n =/ 0 do
+r = m mod n
+m = n
+n = r
+cetak m
+
+fpb <- m
+n * m / fpb = kpk
+cetak KPK
