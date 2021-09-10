@@ -1,0 +1,107 @@
+import numpy as np
+print(np.__version__)
+
+## DAA PERTEMUAN 2
+## Mencetak String
+print("Hello World!")
+print ("Nama Saya Ryan Arya")
+print ("NIM saya 2020071040")
+
+if (5>2):
+    print ("Five is greater than two")
+------------------------------------------------
+## Mencetak dengan deklarasi variabel
+x=6
+y="john"
+print(x)
+print(y)
+------------------------------------------------
+x=7
+x="Sally"
+print(x)
+------------------------------------------------
+## Menampilkan nilai di mylist
+def getfirst(mylist):
+  return mylist[0]
+
+getfirst([1,2,3])
+getfirst([1,2,3,4,5,6,7,8,9,10])
+------------------------------------------------
+def getsecond(mylist):
+  return mylist[-3]
+
+getsecond([1,2,3,4])
+------------------------------------------------
+## Penjumlahan Mylist
+def getSum(myList):
+  sum = 0
+  for item in myList:
+    sum = sum+item
+  return sum
+
+getSum([1,2,3,4])
+getSum([1,2,3])
+getSum([1,2,3,4])
+------------------------------------------------
+## Perkalian Mylist
+def getKali(myList):
+  Kali = 0
+  for item in myList:
+    Kali = Kali*item
+  return Kali
+
+getKali([1,2,3,4])
+------------------------------------------------
+## Pembaguan Mylist
+def getbagi(mylist):
+  a = 4
+  for item in mylist : 
+    a = item/a
+  return a
+getbagi([4,12,24,40])
+------------------------------------------------
+## Penjumlahan dua himpunan Mylist
+def getsum(mylist):
+  sum = 0
+  for row in mylist :
+     for item in row :
+      sum = sum + item
+  return sum
+getsum([[2,4],[4,6],[3,4]]) 
+------------------------------------------------
+## Pengurangan dua himpunan Mylist 
+def getSum(myList):
+  sum = 0
+  for row in myList:
+    for item in row:
+      sum -= item
+  return sum
+  getSum ([[1,2],[4,8]])
+  ------------------------------------------------
+  ## Pembagian dua himpunan Mylist
+  def getbagi(mylist):
+  bagi = 100
+  for row in mylist :
+     for item in row :
+      bagi =  bagi/item
+  return bagi    
+getbagi([[1,2,5],[1,5,2]])
+------------------------------------------------
+## Search Binary (T/F)
+def searchBinary(myList,item):
+  first = 0
+  last =len(myList)-1
+  foundFlag = False
+  while( first<=last and not foundFlag):
+    mid = (first + last)//2
+    if myList[mid] == item :
+      foundFlag = True
+    else:
+      if item < myList[mid]:
+          last = mid - 1
+      else:
+          first = mid + 1
+  return foundFlag
+  
+searchBinary([8,9,10,100,1000,2000,3000], 10)
+searchBinary([8,9,10,100,1000,2000,3000], 5)
